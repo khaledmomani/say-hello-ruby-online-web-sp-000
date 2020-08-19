@@ -1,7 +1,5 @@
-def say_hello(name)
+def say_hello(name= "Ruby programmer")
   puts "Hello #{name}!"
-  if name = NIL
-    then puts "Hello Ruby proogrammer!"
 end
 name = "Kent Beck"
 say_hello(name)
